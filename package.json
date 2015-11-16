@@ -1,0 +1,31 @@
+{
+  "name": "MindstreamInteractive_FrontEnd_Starter",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MindstreamInteractive/front-end-starter"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "browserify": "^11.2.0",
+    "bundle-collapser": "^1.2.1",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-file-include": "^0.13.7",
+    "gulp-filter": "^3.0.1",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-inline-css": "^3.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-streamify": "1.0.2",
+    "postcss-zindex": "^2.0.0",
+    "require-dir": "^0.3.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  },
+  "dependencies": {
+  }
+}

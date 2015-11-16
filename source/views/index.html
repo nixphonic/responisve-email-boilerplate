@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    @@include('partials/_head.html')
+</head>
+<body style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;  margin: 0; min-width: 100%; padding: 0; width: 100%;">
+    <center class="wrapper" syle="width:100%; table-layout:fixed; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+      <div class="webkit">
+        <table class="" cellpadding="0" cellspacing="0" width="600" class="outer" align="center" style="Margin:0 auto; padding:20px 10px; width:100%;">
+          <tr>
+          <td align="center" width="100%;">          
+            @@include('partials/_header-html-link.html')
+
+            @@include('partials/_header-logo-menu.html')
+            
+            @@include('partials/_separator.html')
+            
+            @@include('partials/_content-hero.html')
+            
+            @@include('partials/_separator.html')
+            <!-- This is a departure from the LITMUS' templates,
+            BE CAREFUL with this block
+            
+            Support for background images is NOT consistent among email clients. 
+            
+            This section is an attempt to support background images as best as possible.
+            Responsive classes for the content blocks in this section are 
+            also a departure from the other code provided by LITMUS. 
+            Use this section with patience.
+           
+            Start BG img support   -->
+            @@include('partials/_content-hero-background.html')
+           <!-- BG img support -->
+
+            @@include('partials/_separator.html')
+          
+            <!-- full width call to action table -->
+            @@include('partials/_content-CTA.html')
+            
+            @@include('partials/_separator.html')
+              
+            @@include('partials/_content-centered-row.html')
+            
+            @@include('partials/_separator.html')
+            
+            @@include('partials/_content-two-col-resp-left.html')
+          
+            @@include('partials/_separator.html')
+            
+            @@include('partials/_content-two-col-resp-centered.html')
+            
+            @@include('partials/_separator.html')
+              
+            @@include('partials/_content-three-column.html')
+                    
+            @@include('partials/_separator.html')
+
+            <!-- This is for full-width, responsive rows -->
+            @@include('partials/_content-full-rows.html')
+          
+            @@include('partials/_separator.html')
+
+            @@include('partials/_content-footer.html')
+          
+            @@include('partials/_separator.html')
+          
+            @@include('partials/_unsubscribe.html')
+            </td>
+          </tr>
+          <!-- Do NOT remove unless you want Android GMail to break -->
+          <tr class="gmail-fix">
+            <td>
+              <table cellpadding="0" cellspacing="0" border="0" align="center" width="600" >
+                <tr>
+                  <td cellpadding="0" cellspacing="0" border="0" height="1"; style="line-height: 1px; min-width: 600px;">
+                    <img src="/images/spacer.gif" width="600" height="1" style="display: block; max-height: 1px; min-height: 1px; min-width: 600px; width: 600px;"/>
+                    </td>
+                  </tr>
+              </table>
+            </td>
+          </tr>
+          </table> 
+        </div>
+  </center>
+</body>
+</html>
