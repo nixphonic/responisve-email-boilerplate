@@ -8,11 +8,11 @@ This project uses Gulp to implement HTML partials a css-inliner.
 
 * Dependencies: node, gulp
 * To install dependencies, run `npm install`.
-* `gulp watch` will watch, watchify, browser-sync and allow browser testing of the email
+* First, run `gulp`
+* Then, `gulp watch` will watch, watchify, browser-sync and allow browser testing of the email
 
 #### Additional Notes:
 
 * There are currently elements in place to fix Android Gmail's responsive display.
 
 * Questions? Email ndeamons@mindstreaminteractive.com
-
